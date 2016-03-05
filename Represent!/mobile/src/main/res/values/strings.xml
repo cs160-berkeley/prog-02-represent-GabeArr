@@ -1,0 +1,68 @@
+<resources>
+    <string name="app_name">REPRESENT!</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string-array name="move_title">
+
+        <item>  Dianne Feinstein</item>
+        <item>  Norma J. Torres</item>
+        <item>  Barbara Boxer</item>
+
+    </string-array>
+    <string-array name="move_rating">
+        <item>feinstein.senate.gov/public</item>
+        <item>torres.house.gov</item>
+        <item>boxer.senate.gov</item>
+
+    </string-array>
+    <string-array name="email">
+        <item>senator@feinstein.senate.gov</item>
+        <item>torres.house.gov/contact/email</item>
+        <item>senator@boxer.senate.gov</item>
+    </string-array>
+    <string-array name="tweet">
+        <item>“I’ll be on @NewsHour tonight to discuss the Supreme Court vacancy.
+            Look up your local @PBS station here: http://to.pbs.org/ISNw9C” </item>
+        <item>“Attention high school students: Applications are open for #CHCI’s
+            #R2LNextGen program! http://bit.ly/1QcfuHL”  </item>
+        <item>“Putting the country first means Obama nominating a Justice and the
+            Senate doing its constitutional duty by voting on the nominee.”</item>
+    </string-array>
+
+    <string-array name="party">
+        <item>Democrat</item>
+        <item>Democrat</item>
+        <item>Democrat</item>
+    </string-array>
+
+    <string-array name= "end_term_date">
+        <item> Term in Senate ends January 3rd, 2019</item>
+        <item> Term in Office ends January 3rd, 2017</item>
+        <item> Term in Senate ends January 3rd, 2017 </item>
+    </string-array>
+    <string-array name= "sponsored_bills">
+        <item>Union Strike Act\n
+        Public Safety and Health Act\n
+        No Child Left Behind Act</item>
+        <item>National Transportation Act\n
+        Safe Schools Act\n
+        Domestic Safety Act</item>
+        <item>Female Veteran Suicide Prevention Act\n
+        Tule Lake National Historic Site Establishment Act of 2015\n
+        End of Suffering Act of 2015</item>
+    </string-array>
+    <string-array name= "committees">
+        <item>Free Labor\n
+        Public Health\n
+        Child Welfare</item>
+        <item>Public Buses and Transportation\n
+            Public Safety\n
+        </item>
+        <item>Environment and Public Works\n
+            Ethics/n
+            Transportation and Infrastructure\n
+            Clean Air and Nuclear Safety\n</item>
+    </string-array>
+
+</resources>
