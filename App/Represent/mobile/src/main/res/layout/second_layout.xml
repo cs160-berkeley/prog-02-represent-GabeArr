@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="#1745a7"
+    >
+
+    <ImageView
+        android:id="@+id/move_poster"
+        android:layout_width="75dp"
+        android:layout_height="100dp"
+        android:src="@drawable/boxer"
+
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="15dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/move_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="this is a move name"
+        android:gravity="center"
+        android:textColor="#FFFFFF"
+        android:textSize="20dp"
+
+        android:layout_marginTop="8dp"
+        android:layout_marginStart="20dp"
+        android:layout_alignTop="@+id/move_poster"
+        android:layout_toEndOf="@+id/move_poster" />
+
+    <TextView
+        android:id="@+id/move_rating"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="this is a rating"
+        android:gravity="center"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="6dp"
+        android:layout_below="@+id/move_title"
+        android:layout_alignStart="@+id/move_title"/>
+        <!--android:autoLink="web|phone|email"/>-->
+
+    <TextView
+        android:id="@+id/email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="this is the email"
+        android:gravity="center"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="6dp"
+        android:layout_below="@+id/move_rating"
+        android:layout_alignStart="@+id/move_rating" />
+
+    <TextView
+        android:id="@+id/tweet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="this is the tweet"
+        android:gravity="center"
+        android:textColor="#FFFFFF"
+        android:layout_alignBottom="@+id/move_poster"
+        android:layout_alignStart="@+id/email"
+        android:layout_marginBottom="6dp" />
+    <TextView
+        android:id="@+id/party"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="this is the party"
+        android:gravity="center"
+        android:textColor="#FFFFFF"
+        android:layout_above="@+id/move_rating"
+        android:layout_toEndOf="@+id/move_title"
+        android:layout_marginStart="24dp" />
+    <View
+
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#030000"
+        android:layout_below="@+id/move_poster"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="14dp">
+    </View>
+
+
+</RelativeLayout>
